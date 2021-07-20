@@ -14,6 +14,8 @@
 		B95958FD26A766CE009ABEBC /* finalProjectKWK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B95958FB26A766CE009ABEBC /* finalProjectKWK.xcdatamodeld */; };
 		B95958FF26A766D1009ABEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B95958FE26A766D1009ABEBC /* Assets.xcassets */; };
 		B959590226A766D1009ABEBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B959590026A766D1009ABEBC /* LaunchScreen.storyboard */; };
+		B95C1AE126A7793D00CE63A8 /* HelpYourselfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95C1AE026A7793D00CE63A8 /* HelpYourselfViewController.swift */; };
+		B95C1AE326A779F600CE63A8 /* HelpOthersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95C1AE226A779F600CE63A8 /* HelpOthersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B95958FE26A766D1009ABEBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B959590126A766D1009ABEBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B959590326A766D1009ABEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B95C1AE026A7793D00CE63A8 /* HelpYourselfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpYourselfViewController.swift; sourceTree = "<group>"; };
+		B95C1AE226A779F600CE63A8 /* HelpOthersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpOthersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				B95958F226A766CE009ABEBC /* AppDelegate.swift */,
 				B95958F426A766CE009ABEBC /* SceneDelegate.swift */,
 				B95958F626A766CE009ABEBC /* ViewController.swift */,
+				B95C1AE026A7793D00CE63A8 /* HelpYourselfViewController.swift */,
+				B95C1AE226A779F600CE63A8 /* HelpOthersViewController.swift */,
 				B95958F826A766CE009ABEBC /* Main.storyboard */,
 				B95958FE26A766D1009ABEBC /* Assets.xcassets */,
 				B959590026A766D1009ABEBC /* LaunchScreen.storyboard */,
@@ -142,7 +148,9 @@
 			files = (
 				B95958F726A766CE009ABEBC /* ViewController.swift in Sources */,
 				B95958F326A766CE009ABEBC /* AppDelegate.swift in Sources */,
+				B95C1AE126A7793D00CE63A8 /* HelpYourselfViewController.swift in Sources */,
 				B95958FD26A766CE009ABEBC /* finalProjectKWK.xcdatamodeld in Sources */,
+				B95C1AE326A779F600CE63A8 /* HelpOthersViewController.swift in Sources */,
 				B95958F526A766CE009ABEBC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
