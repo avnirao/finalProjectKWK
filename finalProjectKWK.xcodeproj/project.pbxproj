@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A51A194526A8961800445ED0 /* JournalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A194426A8961800445ED0 /* JournalViewController.swift */; };
+		A51A194726A8967A00445ED0 /* MeditateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A194626A8967A00445ED0 /* MeditateViewController.swift */; };
 		B95958F326A766CE009ABEBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95958F226A766CE009ABEBC /* AppDelegate.swift */; };
 		B95958F526A766CE009ABEBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95958F426A766CE009ABEBC /* SceneDelegate.swift */; };
 		B95958F726A766CE009ABEBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95958F626A766CE009ABEBC /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A51A194426A8961800445ED0 /* JournalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalViewController.swift; sourceTree = "<group>"; };
+		A51A194626A8967A00445ED0 /* MeditateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditateViewController.swift; sourceTree = "<group>"; };
 		B95958EF26A766CE009ABEBC /* finalProjectKWK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProjectKWK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B95958F226A766CE009ABEBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B95958F426A766CE009ABEBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 				B959590026A766D1009ABEBC /* LaunchScreen.storyboard */,
 				B959590326A766D1009ABEBC /* Info.plist */,
 				B95958FB26A766CE009ABEBC /* finalProjectKWK.xcdatamodeld */,
+				A51A194426A8961800445ED0 /* JournalViewController.swift */,
+				A51A194626A8967A00445ED0 /* MeditateViewController.swift */,
 			);
 			path = finalProjectKWK;
 			sourceTree = "<group>";
@@ -149,9 +155,11 @@
 				B95958F726A766CE009ABEBC /* ViewController.swift in Sources */,
 				B95958F326A766CE009ABEBC /* AppDelegate.swift in Sources */,
 				B95C1AE126A7793D00CE63A8 /* HelpYourselfViewController.swift in Sources */,
+				A51A194726A8967A00445ED0 /* MeditateViewController.swift in Sources */,
 				B95958FD26A766CE009ABEBC /* finalProjectKWK.xcdatamodeld in Sources */,
 				B95C1AE326A779F600CE63A8 /* HelpOthersViewController.swift in Sources */,
 				B95958F526A766CE009ABEBC /* SceneDelegate.swift in Sources */,
+				A51A194526A8961800445ED0 /* JournalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
