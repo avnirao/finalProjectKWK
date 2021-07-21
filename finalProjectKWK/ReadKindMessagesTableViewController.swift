@@ -9,9 +9,11 @@ import UIKit
 
 class ReadKindMessagesTableViewController: UITableViewController {
     var kindMessages : [KindMessage] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        kindMessages = createKindMessages()
     }
     
     func createKindMessages() -> [KindMessage] {
