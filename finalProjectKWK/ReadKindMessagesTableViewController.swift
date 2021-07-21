@@ -18,7 +18,10 @@ class ReadKindMessagesTableViewController: UITableViewController {
         let kind = KindMessage()
         kind.message = "Be kind to eachother"
         
-        return [kind]
+        let believe = KindMessage()
+        believe.message = "If you believe, you can acheive"
+        
+        return [kind, believe]
     }
 
 
