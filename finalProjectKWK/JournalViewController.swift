@@ -9,6 +9,14 @@ import UIKit
 
 class JournalViewController: UIViewController {
 
+    @IBOutlet weak var journalLabel: UILabel!
+    @IBOutlet weak var userJournalEntry: UITextView!
+    @IBAction func hideTextButton(_ sender: Any) {
+        userJournalEntry.isHidden = true
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
