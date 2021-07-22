@@ -77,7 +77,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYR-yP-8B2">
                                 <rect key="frame" x="20" y="115" width="374" height="460"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">National Help Line 1-800-662-help (4357)
+                                <string key="text">National Help Line 1-800-662-help (4357)
 National Suicide Prevention Lifeline, 1-800-273-talk (8255)
 SAMHSA Treatment Referral Helpline, 1-877-samhsa7 (1-877-726-4727)
 Emergency Medical Services—911
@@ -89,7 +89,7 @@ National Eating Disorder Association: 1-800-931-2237
 
 National Domestic Violence Hotline Call - 1.800.799.Safe (7233)
 
-The Crisis Text Line offers free, 24/7 support. Text “EMM” to 741741 to text confidentially with a trained crisis counselor.</mutableString>
+The Crisis Text Line offers free, 24/7 support. Text “EMM” to 741741 to text confidentially with a trained crisis counselor.</string>
                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
