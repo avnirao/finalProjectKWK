@@ -37,11 +37,11 @@ class MeditateViewController: UIViewController {
     }
     
     @objc func timerClass(){
-        seconds -= 1
-        timerLabel.text = String(seconds)
-        
-        if(seconds == 0) {
-            timer.invalidate()
+        if(seconds > 0){
+                let minutes = String(seconds / 60)
+                var second = String(seconds % 60)
+                timerLabel.text = minutes + ":" + second
+                seconds -= 1
         }
     }
 
