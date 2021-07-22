@@ -20,6 +20,12 @@ class AddKindMessageViewController: UIViewController {
         
         if let messageText = messageTextView.text{
             kindMessage.message = messageText
+            
+            let alert = UIAlertController(title: "thank you", message: "your message has been submitted.", preferredStyle: .alert)
+
+            alert.addAction(UIAlertAction(title: "ok", style: .default, handler: nil))
+
+            self.present(alert, animated: true)
         }
         previousVC.kindMessages.append(kindMessage)
         previousVC.tableView.reloadData()

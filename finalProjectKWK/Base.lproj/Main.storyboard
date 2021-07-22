@@ -176,7 +176,7 @@ The Crisis Text Line offers free, 24/7 support. Text “EMM” to 741741 to text
                                     <color key="titleColor" red="0.80392156859999997" green="0.70588235290000001" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="submitTapped:" destination="HOx-Wq-nZs" eventType="touchUpInside" id="YZa-yv-EZl"/>
+                                    <action selector="submitTapped:" destination="HOx-Wq-nZs" eventType="touchUpInside" id="C6v-0G-BzI"/>
                                 </connections>
                             </button>
                         </subviews>
