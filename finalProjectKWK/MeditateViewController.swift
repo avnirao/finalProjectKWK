@@ -27,7 +27,7 @@ class MeditateViewController: UIViewController {
     @IBAction func resetButton(_ sender: Any) {
         timer.invalidate()
         seconds = 300
-        timerLabel.text = String(seconds)
+        timerLabel.text = "5:00"
     }
     
     override func viewDidLoad() {
