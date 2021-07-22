@@ -43,7 +43,7 @@
                                     <color key="titleColor" red="0.80392156859999997" green="0.70588235290000001" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Qoa-fT-DkP" kind="show" id="nre-rY-zur"/>
+                                    <segue destination="Qoa-fT-DkP" kind="show" id="5tS-X7-4C5"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -96,12 +96,18 @@
                                 <rect key="frame" x="183" y="762" width="49" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Submit"/>
+                                <connections>
+                                    <action selector="submitTapped:" destination="Qoa-fT-DkP" eventType="touchUpInside" id="rL9-t0-nj2"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="v8w-si-xSb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="sjV-M5-nRy"/>
+                    <connections>
+                        <outlet property="leaveKindMessages" destination="6cs-Dz-qsC" id="P3V-vZ-Htb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D1B-Ut-yhT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
