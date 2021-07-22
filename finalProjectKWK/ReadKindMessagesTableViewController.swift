@@ -80,8 +80,10 @@ class ReadKindMessagesTableViewController: UITableViewController {
     */
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let addVC = segue.destination as? HelpOthersViewController {
+        if let addVC = segue.destination as? AddKindMessageViewController {
             addVC.previousVC = self;
         }
-    }
+//
+}
+
 }

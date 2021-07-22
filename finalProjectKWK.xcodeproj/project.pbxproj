@@ -11,6 +11,8 @@
 		A51A194726A8967A00445ED0 /* MeditateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A194626A8967A00445ED0 /* MeditateViewController.swift */; };
 		A51A194926A8BC7A00445ED0 /* KindMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A194826A8BC7A00445ED0 /* KindMessages.swift */; };
 		A51A194B26A8BD1F00445ED0 /* ReadKindMessagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A194A26A8BD1F00445ED0 /* ReadKindMessagesTableViewController.swift */; };
+		A51A194D26A9F9AF00445ED0 /* HelpOthersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A194C26A9F9AF00445ED0 /* HelpOthersViewController.swift */; };
+		A51A194F26AA08D400445ED0 /* AddKindMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51A194E26AA08D400445ED0 /* AddKindMessageViewController.swift */; };
 		B95958F326A766CE009ABEBC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95958F226A766CE009ABEBC /* AppDelegate.swift */; };
 		B95958F526A766CE009ABEBC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95958F426A766CE009ABEBC /* SceneDelegate.swift */; };
 		B95958F726A766CE009ABEBC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95958F626A766CE009ABEBC /* ViewController.swift */; };
@@ -19,7 +21,6 @@
 		B95958FF26A766D1009ABEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B95958FE26A766D1009ABEBC /* Assets.xcassets */; };
 		B959590226A766D1009ABEBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B959590026A766D1009ABEBC /* LaunchScreen.storyboard */; };
 		B95C1AE126A7793D00CE63A8 /* HelpYourselfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95C1AE026A7793D00CE63A8 /* HelpYourselfViewController.swift */; };
-		B95C1AE326A779F600CE63A8 /* HelpOthersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95C1AE226A779F600CE63A8 /* HelpOthersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,8 @@
 		A51A194626A8967A00445ED0 /* MeditateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeditateViewController.swift; sourceTree = "<group>"; };
 		A51A194826A8BC7A00445ED0 /* KindMessages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindMessages.swift; sourceTree = "<group>"; };
 		A51A194A26A8BD1F00445ED0 /* ReadKindMessagesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadKindMessagesTableViewController.swift; sourceTree = "<group>"; };
+		A51A194C26A9F9AF00445ED0 /* HelpOthersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpOthersViewController.swift; sourceTree = "<group>"; };
+		A51A194E26AA08D400445ED0 /* AddKindMessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddKindMessageViewController.swift; sourceTree = "<group>"; };
 		B95958EF26A766CE009ABEBC /* finalProjectKWK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProjectKWK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B95958F226A766CE009ABEBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B95958F426A766CE009ABEBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +40,6 @@
 		B959590126A766D1009ABEBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B959590326A766D1009ABEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B95C1AE026A7793D00CE63A8 /* HelpYourselfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpYourselfViewController.swift; sourceTree = "<group>"; };
-		B95C1AE226A779F600CE63A8 /* HelpOthersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpOthersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +76,6 @@
 				B95958F426A766CE009ABEBC /* SceneDelegate.swift */,
 				B95958F626A766CE009ABEBC /* ViewController.swift */,
 				B95C1AE026A7793D00CE63A8 /* HelpYourselfViewController.swift */,
-				B95C1AE226A779F600CE63A8 /* HelpOthersViewController.swift */,
 				B95958F826A766CE009ABEBC /* Main.storyboard */,
 				B95958FE26A766D1009ABEBC /* Assets.xcassets */,
 				B959590026A766D1009ABEBC /* LaunchScreen.storyboard */,
@@ -84,6 +85,8 @@
 				A51A194626A8967A00445ED0 /* MeditateViewController.swift */,
 				A51A194826A8BC7A00445ED0 /* KindMessages.swift */,
 				A51A194A26A8BD1F00445ED0 /* ReadKindMessagesTableViewController.swift */,
+				A51A194C26A9F9AF00445ED0 /* HelpOthersViewController.swift */,
+				A51A194E26AA08D400445ED0 /* AddKindMessageViewController.swift */,
 			);
 			path = finalProjectKWK;
 			sourceTree = "<group>";
@@ -158,13 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A51A194D26A9F9AF00445ED0 /* HelpOthersViewController.swift in Sources */,
 				B95958F726A766CE009ABEBC /* ViewController.swift in Sources */,
 				B95958F326A766CE009ABEBC /* AppDelegate.swift in Sources */,
 				B95C1AE126A7793D00CE63A8 /* HelpYourselfViewController.swift in Sources */,
+				A51A194F26AA08D400445ED0 /* AddKindMessageViewController.swift in Sources */,
 				A51A194B26A8BD1F00445ED0 /* ReadKindMessagesTableViewController.swift in Sources */,
 				A51A194726A8967A00445ED0 /* MeditateViewController.swift in Sources */,
 				B95958FD26A766CE009ABEBC /* finalProjectKWK.xcdatamodeld in Sources */,
-				B95C1AE326A779F600CE63A8 /* HelpOthersViewController.swift in Sources */,
 				B95958F526A766CE009ABEBC /* SceneDelegate.swift in Sources */,
 				A51A194526A8961800445ED0 /* JournalViewController.swift in Sources */,
 				A51A194926A8BC7A00445ED0 /* KindMessages.swift in Sources */,

@@ -2,32 +2,20 @@
 //  HelpOthersViewController.swift
 //  finalProjectKWK
 //
-//  Created by Ravi Yadav on 7/20/21.
+//  Created by Gordon Bond on 22/07/2021.
 //
 
 import UIKit
 
 class HelpOthersViewController: UIViewController {
-    var previousVC = ReadKindMessagesTableViewController()
-    
-    @IBOutlet weak var leaveKindMessagesBox: UITextView!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        // Do any additional setup after loading the view.
     }
     
-    @IBAction func submitTapped(_ sender: Any) {
-        let kindMessage = KindMessage()
-        
-        if let leaveKindMessage = leaveKindMessagesBox.text {
-            kindMessage.message = leaveKindMessage
-        }
-        
-        previousVC.kindMessages.append(kindMessage)
-        previousVC.tableView.reloadData()
-        
-    }
-    
+
     /*
     // MARK: - Navigation
 

@@ -43,7 +43,7 @@
                                     <color key="titleColor" red="0.80392156859999997" green="0.70588235290000001" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Qoa-fT-DkP" kind="show" id="5tS-X7-4C5"/>
+                                    <segue destination="Qoa-fT-DkP" kind="show" id="FQL-gk-Bxz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -70,34 +70,32 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="*Insert Websites Here*" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYR-yP-8B2">
-                                <rect key="frame" x="120" y="233" width="175" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="26" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YYR-yP-8B2">
+                                <rect key="frame" x="20" y="115" width="352" height="460"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="User types message here" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6cs-Dz-qsC">
-                                <rect key="frame" x="87" y="499" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Leave a kind message for another user" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mbZ-jP-Yr4">
-                                <rect key="frame" x="87" y="665" width="240" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <mutableString key="text">National Help Line 1-800-662-help (4357)
+National Suicide Prevention Lifeline, 1-800-273-talk (8255)
+SAMHSA Treatment Referral Helpline, 1-877-samhsa7 (1-877-726-4727)
+Emergency Medical Services—911
+
+National Alliance On Mental Illness: 1-800-950-6264
+Rape, Abuse And Incest National Network: 1-800-656-4673
+
+National Eating Disorder Association: 1-800-931-2237
+
+National Domestic Violence Hotline Call - 1.800.799.Safe (7233)
+
+The Crisis Text Line offers free, 24/7 support. Text “EMM” to 741741 to text confidentially with a trained crisis counselor.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2t5-Jk-IIl">
-                                <rect key="frame" x="183" y="762" width="49" height="30"/>
+                                <rect key="frame" x="75" y="761" width="265" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Submit"/>
+                                <state key="normal" title="Leave a kind message for another user"/>
                                 <connections>
-                                    <action selector="submitTapped:" destination="Qoa-fT-DkP" eventType="touchUpInside" id="rL9-t0-nj2"/>
+                                    <segue destination="HOx-Wq-nZs" kind="show" id="zid-hV-C9F"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -105,9 +103,6 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="sjV-M5-nRy"/>
-                    <connections>
-                        <outlet property="leaveKindMessages" destination="6cs-Dz-qsC" id="P3V-vZ-Htb"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D1B-Ut-yhT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -136,11 +131,54 @@
                             <outlet property="delegate" destination="jzR-4C-h9A" id="dSa-g2-pCd"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="0qc-Xn-OoR"/>
+                    <navigationItem key="navigationItem" id="0qc-Xn-OoR">
+                        <barButtonItem key="rightBarButtonItem" title="add more messages &gt;" style="plain" id="Ttb-Wp-N6L">
+                            <connections>
+                                <segue destination="HOx-Wq-nZs" kind="show" id="RmB-Sj-CCi"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WJh-bd-DH5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2802.898550724638" y="344.86607142857139"/>
+        </scene>
+        <!--Add Kind Message View Controller-->
+        <scene sceneID="w05-XO-sGz">
+            <objects>
+                <viewController id="HOx-Wq-nZs" customClass="AddKindMessageViewController" customModule="finalProjectKWK" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6iF-ef-iIU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Leave kind messages" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="14i-sD-wGA">
+                                <rect key="frame" x="87" y="151" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cfZ-UG-Tuf">
+                                <rect key="frame" x="184" y="430" width="47" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="submit"/>
+                                <connections>
+                                    <action selector="submitTapped:" destination="HOx-Wq-nZs" eventType="touchUpInside" id="YZa-yv-EZl"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZvH-Sv-NnQ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="B6u-lJ-ydu"/>
+                    <connections>
+                        <outlet property="messageTextView" destination="14i-sD-wGA" id="sx4-rn-1Jn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zXt-Wh-kg2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2803" y="1049"/>
         </scene>
         <!--Help Yourself View Controller-->
         <scene sceneID="Io8-wo-G4w">
@@ -354,6 +392,9 @@
             <point key="canvasLocation" x="1892.753623188406" y="344.86607142857139"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="zid-hV-C9F"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
