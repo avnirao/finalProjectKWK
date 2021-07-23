@@ -102,7 +102,7 @@ The Crisis Text Line offers free, 24/7 support. Text “EMM” to 741741 to text
                                     <color key="titleColor" red="0.80392156859999997" green="0.70588235290000001" blue="0.85882352939999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="HOx-Wq-nZs" kind="show" id="zid-hV-C9F"/>
+                                    <segue destination="0jK-s6-cvz" kind="show" id="w8j-aK-jop"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -150,7 +150,7 @@ The Crisis Text Line offers free, 24/7 support. Text “EMM” to 741741 to text
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WJh-bd-DH5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2802.898550724638" y="344.86607142857139"/>
+            <point key="canvasLocation" x="2794" y="345"/>
         </scene>
         <!--Add Kind Message View Controller-->
         <scene sceneID="w05-XO-sGz">
@@ -190,7 +190,7 @@ The Crisis Text Line offers free, 24/7 support. Text “EMM” to 741741 to text
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zXt-Wh-kg2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2803" y="1049"/>
+            <point key="canvasLocation" x="2793" y="1138"/>
         </scene>
         <!--Help Yourself View Controller-->
         <scene sceneID="Io8-wo-G4w">
@@ -342,7 +342,7 @@ The Crisis Text Line offers free, 24/7 support. Text “EMM” to 741741 to text
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="enter text" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HLX-sC-Ndr">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="HLX-sC-Ndr">
                                 <rect key="frame" x="87" y="205" width="240" height="369"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.89019607840000003" green="0.92549019610000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -410,7 +410,7 @@ The Crisis Text Line offers free, 24/7 support. Text “EMM” to 741741 to text
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="RmB-Sj-CCi"/>
+        <segue reference="w8j-aK-jop"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Screen Shot 2021-07-22 at 2.01.04 PM" width="568" height="470"/>
