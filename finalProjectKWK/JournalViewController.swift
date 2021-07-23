@@ -12,20 +12,6 @@ class JournalViewController: UIViewController {
     @IBOutlet weak var journalLabel: UILabel!
     @IBOutlet weak var userJournalEntry: UITextView!
     
-    func textViewDidBeginEditing(_ textView: UITextView) {
-        if userJournalEntry.textColor == UIColor.lightGray {
-            userJournalEntry.text = nil
-            userJournalEntry.textColor = UIColor.black
-        }
-    }
-    
-    func textViewDidEndEditing(_ textView: UITextView) {
-        if userJournalEntry.text.isEmpty {
-            textView.text = "enter text"
-            textView.textColor = UIColor.lightGray
-        }
-    }
-    
     @IBAction func hideTextButton(_ sender: Any) {
         userJournalEntry.isHidden = true
     }
@@ -34,9 +20,6 @@ class JournalViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        userJournalEntry.text = "enter text"
-        userJournalEntry.textColor = UIColor.lightGray
     }
     
 
